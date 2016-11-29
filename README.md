@@ -26,7 +26,10 @@ This is a project template with batteries included to speed up project initiatio
 │   │   ├── NavBar
 │   │   │   ├── index.js
 │   │   │   └── styles.js
-│   │   └── Root
+│   │   ├── Root
+│   │   │   ├── index.js
+│   │   │   └── styles.js
+│   │   └── TabIcon
 │   │       ├── index.js
 │   │       └── styles.js
 │   ├── containers
