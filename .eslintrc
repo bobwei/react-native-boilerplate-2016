@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "extends": "airbnb",
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": 0,
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": [2, {"ignore": ["className", "children", "id", "onClick", "style", "dispatch", "params", "location"]}]
+  }
+}
