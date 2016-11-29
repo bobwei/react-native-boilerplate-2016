@@ -7,6 +7,8 @@ This is a project template with batteries included to speed up project initiatio
 *   react-native-router-flux
 *   redux
 *   eslint
+*   code push
+*   support .env with react-native-config
 
 ## Project Structure
 
