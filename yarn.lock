@@ -4478,6 +4478,10 @@ react-native-code-push@^1.16.0-beta:
     inquirer "1.1.2"
     plist "1.2.0"
 
+react-native-config@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-0.1.2.tgz#cf6e3e312845f411fe9ef42f3ea283c576078681"
+
 react-native-experimental-navigation@0.26.x:
   version "0.26.10"
   resolved "https://registry.yarnpkg.com/react-native-experimental-navigation/-/react-native-experimental-navigation-0.26.10.tgz#355e37929a2bfb84088dca331f34bc575297df68"
