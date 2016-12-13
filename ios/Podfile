@@ -1,0 +1,11 @@
+abstract_target 'All' do
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'RCTText',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTWebSocket',
+  ]
+
+  target 'ReactNativeBoilerplate'
+  target 'ReactNativeBoilerplateTests'
+end
