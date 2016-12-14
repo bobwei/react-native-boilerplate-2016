@@ -17,4 +17,6 @@ profile
 docset-installed.txt
 .DS_Store
 
+# CocoaPods
+Pods/
 Podfile.lock
