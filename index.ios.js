@@ -10,6 +10,7 @@ import scenes from './src/scenes';
 
 const {
   CODE_PUSH_DEPLOYMENT_KEY,
+  DISABLE_YELLOW_BOX,
 } = Config;
 
 const store = configureStore({});
@@ -24,6 +25,10 @@ if (!__DEV__) {
       installMode: codePush.InstallMode.IMMEDIATE,
       deploymentKey: CODE_PUSH_DEPLOYMENT_KEY,
     });
+}
+
+if (DISABLE_YELLOW_BOX === 'true') {
+  console.disableYellowBox = true;
 }
 
 AppRegistry.registerComponent(
