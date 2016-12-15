@@ -5,8 +5,8 @@ import Button from 'apsl-react-native-button';
 import styles from './styles';
 
 export default compose(
-  withProps(({ style }) => ({
+  withProps(({ style, textStyle }) => ({
     style: [styles.buttonStyle, style],
-    textStyle: styles.textStyle,
+    textStyle: [styles.textStyle, textStyle],
   })),
 )(Button);
