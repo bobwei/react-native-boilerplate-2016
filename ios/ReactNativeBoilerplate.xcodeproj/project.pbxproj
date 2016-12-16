@@ -28,6 +28,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		9EF184578C5241DEB51AAC88 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E84B5344FF3A4DF6B4F7ABB1 /* libz.tbd */; };
 		9F08F20E1DEDE0310084E0C8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F08F1FA1DEDDFF30084E0C8 /* libRCTAnimation.a */; };
+		E23340B68AC748EEB8F49806 /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E43884E2F9D4E85AFB2F64E /* libRCTFBSDK.a */; };
 		E351BDBCA7DED391ED6055EC /* libPods-All-ReactNativeBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE08E734C4EF71B7D5D7782 /* libPods-All-ReactNativeBoilerplate.a */; };
 /* End PBXBuildFile section */
 
@@ -186,6 +187,13 @@
 			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
 			remoteInfo = "React-tvOS";
 		};
+		9F4818CB1E0456040080232F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF2C0AC57E4447A9B2B7CF2 /* RCTFBSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9350E0F11CE3B0920041D815;
+			remoteInfo = RCTFBSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -212,10 +220,12 @@
 		47D7FF5C1C584D1E82AAAD53 /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeConfig.xcodeproj; path = "../node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; };
 		4C11B8A9B0DF26B9DCA96504 /* Pods-All-ReactNativeBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-All-ReactNativeBoilerplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-All-ReactNativeBoilerplate/Pods-All-ReactNativeBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		59A4D62EFA800A1629296846 /* libPods-All-ReactNativeBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-All-ReactNativeBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E43884E2F9D4E85AFB2F64E /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
 		6C0E9A8158524B88BEF1CB1D /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeConfig.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		78E8D581F4AE4881458C5069 /* Pods-All-ReactNativeBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-All-ReactNativeBoilerplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-All-ReactNativeBoilerplateTests/Pods-All-ReactNativeBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		8BF2C0AC57E4447A9B2B7CF2 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
 		9BE08E734C4EF71B7D5D7782 /* libPods-All-ReactNativeBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-All-ReactNativeBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F08F1F21DEDDFF30084E0C8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		BE8B15C6C65E704BA62CE55F /* Pods-All-ReactNativeBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-All-ReactNativeBoilerplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-All-ReactNativeBoilerplate/Pods-All-ReactNativeBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -253,6 +263,7 @@
 				9EF184578C5241DEB51AAC88 /* libz.tbd in Frameworks */,
 				5A6769BF62864D748C267769 /* libReactNativeConfig.a in Frameworks */,
 				E351BDBCA7DED391ED6055EC /* libPods-All-ReactNativeBoilerplate.a in Frameworks */,
+				E23340B68AC748EEB8F49806 /* libRCTFBSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +416,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				F7AB374C90FC4ACFB3EE42FB /* CodePush.xcodeproj */,
 				47D7FF5C1C584D1E82AAAD53 /* ReactNativeConfig.xcodeproj */,
+				8BF2C0AC57E4447A9B2B7CF2 /* RCTFBSDK.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -462,6 +474,14 @@
 			children = (
 				9F08F1FA1DEDDFF30084E0C8 /* libRCTAnimation.a */,
 				9F08F1FC1DEDDFF30084E0C8 /* libRCTAnimation-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4818C41E0456040080232F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4818CC1E0456040080232F /* libRCTFBSDK.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -553,6 +573,10 @@
 				{
 					ProductGroup = 9F08F1F31DEDDFF30084E0C8 /* Products */;
 					ProjectRef = 9F08F1F21DEDDFF30084E0C8 /* RCTAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = 9F4818C41E0456040080232F /* Products */;
+					ProjectRef = 8BF2C0AC57E4447A9B2B7CF2 /* RCTFBSDK.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -751,6 +775,13 @@
 			remoteRef = 9F1AE30A1DED71D6005EDC8E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		9F4818CC1E0456040080232F /* libRCTFBSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTFBSDK.a;
+			remoteRef = 9F4818CB1E0456040080232F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -936,7 +967,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeBoilerplate.app/ReactNativeBoilerplate";
@@ -955,7 +985,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -977,6 +1006,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 				);
 				INFOPLIST_FILE = ReactNativeBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1004,6 +1034,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 				);
 				INFOPLIST_FILE = ReactNativeBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1058,6 +1089,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 				);
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
 				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/build/Build/Products/GeneratedDotEnv.m";
@@ -1103,6 +1135,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native-code-push/ios/CodePush/**",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios/RCTFBSDK/**",
 				);
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
 				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/build/Build/Products/GeneratedDotEnv.m";
