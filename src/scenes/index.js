@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar';
 import TabIcon from '../components/TabIcon';
 import MainPage from '../containers/MainPage';
 import { views } from './views';
+import Login from '../modules/auth/containers/Login';
 
 const scenes = Actions.create(
   <Scene key="root">
@@ -20,6 +21,15 @@ const scenes = Actions.create(
         />
       ))}
     </Scene>
+    <Scene
+      key="login"
+      title="Login"
+      component={Login}
+      navBar={NavBar}
+      direction="vertical"
+      hideBackImage
+      backTitle="Back"
+    />
   </Scene>,
 );
 

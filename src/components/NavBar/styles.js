@@ -1,11 +1,17 @@
 import { StyleSheet } from 'react-native';
 
+import { navigationBarBackgroundColor, navigationBarTitleColor } from '../../styles';
+
 const styles = StyleSheet.create({
   navigationBarStyle: {
-    backgroundColor: '#FF7485',
+    backgroundColor: navigationBarBackgroundColor,
+    borderBottomWidth: 0,
   },
   titleStyle: {
-    color: '#fff',
+    color: navigationBarTitleColor,
+  },
+  backButtonTextStyle: {
+    color: navigationBarTitleColor,
   },
 });
 

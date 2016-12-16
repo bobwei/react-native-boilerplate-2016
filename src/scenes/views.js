@@ -10,4 +10,5 @@ export const views = [{
 }, {
   title: 'Me',
   component: ProfilePage,
+  initial: true,
 }];
