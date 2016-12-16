@@ -1,13 +1,23 @@
 import { StyleSheet } from 'react-native';
+import {
+  navigationBarBackgroundColor, navigationBarTitleColor,
+  blueButtonBackgroundColor,
+} from '../../styles';
 
 const styles = StyleSheet.create({
-  buttonStyle: {
+  base: {
     height: 36,
-    borderColor: '#ff5a5f',
-    backgroundColor: '#ff5a5f',
+  },
+  primary: {
+    borderColor: navigationBarBackgroundColor,
+    backgroundColor: navigationBarBackgroundColor,
+  },
+  blue: {
+    borderColor: blueButtonBackgroundColor,
+    backgroundColor: blueButtonBackgroundColor,
   },
   textStyle: {
-    color: '#fff',
+    color: navigationBarTitleColor,
     fontSize: 15,
   },
 });
