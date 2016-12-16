@@ -18,7 +18,7 @@ const ProfilePage = ({ user, login, logout }) => (
       My Profile
     </Text>
     {!isAuthenticated(user) &&
-      <Button onPress={login} style={styles.button}>
+      <Button onPress={login} style={styles.button} bsStyle="blue">
         Login
       </Button>
     }
