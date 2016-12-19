@@ -10,39 +10,15 @@ This is a project template with batteries included to speed up project initiatio
 *   code push
 *   support .env with react-native-config
 
-## Project Structure
+## Project initialization
 
 ```
-.
-├── README.md
-├── __tests__
-│   ├── index.android.js
-│   └── index.ios.js
-├── index.android.js
-├── index.ios.js
-├── package.json
-├── src
-│   ├── components
-│   │   ├── NavBar
-│   │   │   ├── index.js
-│   │   │   └── styles.js
-│   │   ├── Root
-│   │   │   ├── index.js
-│   │   │   └── styles.js
-│   │   └── TabIcon
-│   │       ├── index.js
-│   │       └── styles.js
-│   ├── containers
-│   │   └── MainPage
-│   │       ├── index.js
-│   │       └── styles.js
-│   ├── reducers
-│   │   └── index.js
-│   ├── scenes
-│   │   └── index.js
-│   └── stores
-│       └── index.js
-└── yarn.lock
+yarn
+```
+
+```
+cd ios
+pod install
 ```
 
 ## Development Flow
