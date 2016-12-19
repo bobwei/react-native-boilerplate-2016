@@ -1,11 +1,11 @@
 import React from 'react';
 import { Actions, Scene } from 'react-native-router-flux';
 
-import NavBar from '../components/NavBar';
-import TabIcon from '../components/TabIcon';
+import NavBar from 'components/NavBar';
+import TabIcon from 'components/TabIcon';
+import Login from 'modules/auth/containers/Login';
 import MainPage from '../containers/MainPage';
 import { views } from './views';
-import Login from '../modules/auth/containers/Login';
 
 const scenes = Actions.create(
   <Scene key="root">

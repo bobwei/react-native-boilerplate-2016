@@ -1,13 +1,10 @@
 import React from 'react';
-import {
-  Text,
-  View,
-} from 'react-native';
+import { Text, View } from 'react-native';
 import compose from 'recompose/compose';
 import withProps from 'recompose/withProps';
 
+import Button from 'components/Button';
 import styles from './styles';
-import Button from '../../components/Button';
 
 const MainPage = ({ title, onPress }) => (
   <View style={styles.container}>

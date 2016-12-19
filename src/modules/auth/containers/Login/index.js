@@ -9,9 +9,9 @@ import R from 'ramda';
 import Config from 'react-native-config';
 import { Actions } from 'react-native-router-flux';
 
-import styles from './styles';
-import Button from '../../../../components/Button';
+import Button from 'components/Button';
 import * as actions from '../../actions/facebook';
+import styles from './styles';
 
 const {
   FACEBOOK_READ_PERMISSIONS = 'public_profile,email',
