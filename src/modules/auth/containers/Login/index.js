@@ -11,6 +11,7 @@ import { Actions } from 'react-native-router-flux';
 
 import Button from 'components/Button';
 import * as actions from '../../actions/facebook';
+import { userSelector } from '../../selectors';
 import styles from './styles';
 
 const {
@@ -30,7 +31,9 @@ Login.propTypes = {
 };
 
 export default compose(
-  connect(({ user }) => ({ user })),
+  connect(state => ({
+    user: userSelector()(state),
+  })),
   lifecycle({
     componentWillReceiveProps(nextProps) {
       if (!shallowEqual(this.props.user.data, nextProps.user.data) &&
