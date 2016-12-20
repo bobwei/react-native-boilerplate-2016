@@ -44,7 +44,7 @@ export default compose(
       dispatch,
       R.pipe(
         R.split(','),
-        r => [r],
+        R.of,
         R.partial(actions.login),
       )(FACEBOOK_READ_PERMISSIONS),
     ),
